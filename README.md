@@ -139,7 +139,7 @@ options:
 - `forceQuotes` _(default: `false`)_ - if `true`, all non-key strings will be quoted even if they normally don't need to.
 - `replacer` - callback `function (key, value)` called recursively on each key/value in source object (see `replacer` docs for `JSON.stringify`).
 
-The following table show availlable styles (e.g. "canonical",
+The following table show available styles (e.g. "canonical",
 "binary"...) available for each tag (.e.g. !!null, !!int ...). Yaml
 output is shown on the right side after `=>` (default setting) or `->`:
 
